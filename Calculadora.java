@@ -6,7 +6,7 @@ public class Calculadora{
 
     //Inicia o código.
     public static void main(String[] args) {
-        //Adiciona o comando de ler o conteudo escrito.
+        //Abre o comando de ler o conteudo escrito.
         Scanner teclado = new Scanner(System.in);
         
         //Exibe uma mensagem que solicita o primeiro numero da conta.
@@ -28,18 +28,22 @@ public class Calculadora{
         switch (op){
 
             case "+":
+                System.out.println("O resultado é: ");
                 System.out.print(n1 + n2);
             break;
 
             case "-":
+                System.out.println("O resultado é: ");
                 System.out.print(n1 - n2);
             break;
 
             case "/":
+                System.out.println("O resultado é: ");
                 System.out.print(n1 / n2);
             break;
 
             case "*":
+                System.out.println("O resultado é: ");
                 System.out.print(n1 * n2);
             
         }
